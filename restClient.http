@@ -1,0 +1,38 @@
+
+
+POST http://localhost:5000/api/user/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "alidonyaee64@gmail.com",
+    "password": "redbullir@7723594681"
+}
+
+###
+
+POST http://localhost:5000/api/user/register HTTP/1.1
+content-type: application/json
+
+{
+    "email": "",
+    "password": "",
+    "name":"",
+    "phoneNumber":""
+}
+
+
+###
+
+GET http://localhost:5000/api/product HTTP/1.1
+content-type: application/json
+
+###
+
+
+###
+GET http://localhost:5000/api/product/seed HTTP/1.1
+content-type: application/json
+
+
+
+###
